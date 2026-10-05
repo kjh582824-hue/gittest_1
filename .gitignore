@@ -1,0 +1,52 @@
+# ---- 操作系统 ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ---- 编译产物 ----
+build/
+dist/
+target/
+*.exe
+*.dll
+*.o
+*.obj
+
+# ---- 密钥与隐私（重要：绝不要提交这些）----
+*.key
+*.pem
+.env
+.env.*
+secrets.json
+id_rsa*
+id_ed25519*
+credentials*
+
+# ---- 临时文件 ----
+*.log
+*.tmp
+*.bak
+.cache/
